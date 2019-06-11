@@ -1,0 +1,192 @@
+//footer
+footer
+    min-height: 120px
+    padding: 2.5em
+    text-align: center
+    background-image: linear-gradient(to top, #153c71, #3795cb)
+    color: #fff
+    font-size: .8em
+footer
+    ul
+        display: inline-block
+        margin: 0 auto 10px
+        display: flex
+        justify-content: center
+.instagram, .facebook, .twitter, .yelp, .googleMaps
+    background: url(../images/Social_Media_Icons_BW.png) no-repeat
+    display: block
+    height: 27px
+    width: 27px
+    padding: 10px
+    margin: 8px
+.instagram
+    background-position: 0 0
+    &:hover
+        background-position: 0 -27px
+.facebook
+    background-position: -31px 0
+    &:hover
+        background-position: -31px -27px
+.twitter
+    background-position: -62px 0
+    &:hover
+        background-position: -62px -27px
+.yelp
+    background-position: -93px 0
+    &:hover
+        background-position: -93px -27px
+.googleMaps
+    background-position: -124px 0
+    &:hover
+        background-position: -124px -27px
+//end footer
+
+//begin nav
+.hamMenu
+    font-size: 35px
+    background-color: #3795cb
+    text-align: right
+    padding: 5px
+    cursor: pointer
+nav
+    display: none
+    padding: 10px
+    i
+        padding: 2px 5px 0
+    a
+        padding: 5px
+        display: block
+        text-decoration: none
+        font: 1.25em/normal 'Arimo', sans-serif
+        color: #3795cb
+        &:hover
+            background-color: #153c71
+            color: #fff
+        &:active
+            background-color: #153c71
+            color: #fff
+#sub1, #sub2
+    padding-left: 20px
+    display: none
+.disabled
+    padding: 5px
+    display: block
+    text-decoration: none
+    font: 1.25em/normal 'Arimo', sans-serif
+    color: #3795cb
+    a
+        font-size: 20px
+.active
+    padding: 5px
+    display: block
+    text-decoration: none
+    font: 1.25em/normal 'Arimo', sans-serif
+    color: #3795cb
+    a
+        font-size: 20px
+//forms
+form
+    width: 80%
+    margin: .5em auto 1em
+    fieldset
+        margin-bottom: 1em
+        padding: 10px
+        background-color: #ededed
+    legend
+        font-style: italic
+        color: #399
+        margin-left: 10px
+    li
+        margin-bottom: .5em
+        label
+            display: block
+            padding-bottom: .2em
+        input
+            width: 100%
+            margin-bottom: .5em
+            line-height: 2
+            border-radius: 4px
+            border: 1px solid #ccc
+            height: 3em
+            padding-left: .5em
+    ul
+        padding: 5px
+    select
+        height: 3em
+        border-radius: 4px
+        border: 1px solid #ccc
+    .submitBtn
+        cursor: pointer
+        font: 16px/1.4 'Roboto', sans-serif
+        text-decoration: none
+        border: 1px solid #cb6a09
+        background-color: #cb6a09
+        color: #eae1db
+        text-align: center
+        padding: .5em .5em
+        margin: 1em .10em
+        display: inline-block
+        min-width: 126px
+        max-height: 116px
+        &:hover
+            background-color: teal
+            border: solid 1px teal
+            color: #fff
+    textarea
+        width: 100%
+        margin-bottom: .5em
+        line-height: 2
+        border-radius: 4px
+        border: 1px solid #ccc
+        height: 5em
+        padding-left: .5em
+        display: block
+        padding-bottom: .2em
+        margin-top: 20px
+        font: 1em/normal 'Lato', sans-serif
+    select
+        height: 3em
+        border-radius: 4px
+        border: 1px solid #ccc
+    .checkList
+        div
+            display: flex
+            align-items: center
+            padding: 10px
+            input
+                flex: 1
+            label
+                flex: 5
+    .radioList
+        display: flex
+        justify-content: space-around
+    .monthYear
+        display: flex
+        li
+            width: 100%
+            padding-bottom: 5px
+        select
+            width: 100%
+            flex: 1
+    .formFlex
+        display: flex
+@media screen and (min-width: 700px)
+    .fa-chevron-down
+        display: none
+    .hamMenu
+        display: none
+    nav
+        display: block
+        ul
+            display: flex
+            justify-content: space-around
+    #sub1, #sub2
+        position: absolute
+        display: flex
+        flex-direction: column
+        background-color: #153c71
+        padding: 5px
+        margin-top: 5px
+        display: none
+        a
+            color: #fff

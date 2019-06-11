@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--[if lt IE9]>
+            <script src="scripts/html5shiv.min.js"
+            type="text/javascript"></script>
+        <![endif]-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Silver Bay Kennel Club</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Boogaloo|Lato|Roboto:400,500" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/main.css.min.css" type="text/css">
+    <!-- scripts -->
+    <!-- Jquery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"         type="text/javascript">
+    </script>
+    <!--local script file-->
+    <script src="scripts/main.js" defer></script>
+
+</head>
+<body>
+   <header>
+     <div class="hamMenu">
+         <i class="fas fa-bars hamMenu"></i>
+     </div>
+      <a href="index.html"><img src="images/header.png" alt="silver bay kennel club"></a>
+         <nav>
+         <ul>
+             <li class="active">Home<li><a href="pages/showEvents.html">Shows/Events</a></li>
+             <li><a href="pages/tr-hr.html">Trainers</a>
+             </li>
+             <li><a href="pages/breeders.html">Breeders</a></li>
+             <li class="disabled">Gallery<i class="fas fa-chevron-down"></i>
+                 <ul id="sub1">
+                     <li><a href="pages/gallery.html">Photos</a></li>
+                     <li><a href="pages/videos.html">Videos</a></li>
+                 </ul>
+             </li>
+              <li class="disabled">About Us<i class="fas fa-chevron-down"></i>
+                 <ul id="sub2">
+                     <li><a href="pages/about.html">History</a></li>
+                     <li><a href="pages/faq.html">F.A.Q.</a></li>
+                 </ul>
+             </li>
+             <li><a href="pages/contactUs.html">Contact Us</a></li>
+         </ul>
+       </nav>
+    </header>
+
+    <main id="home">
+
+         <article>
+             <h1>Welcome to Silver Bay Kennel Club</h1>
+             <img src="images/indexImg1.jpg" alt="San Diego" class="mainImg">
+         </article>
+
+        <section class="sec1">
+            <article class="twoCols">
+                <h2>Who we are</h2>
+                <p>Silver Bay Kennel Club of San Diego (SBKC) is one of the oldest kennel clubs in Southern California. Our mission is to put on a good show for the exhibitors and to provide educational information and support to all dog fanciers. Throughout the years, SBKC has stood ready to help, levering its prestigious position in the dog world to offer a hand to the novice dog fancier and the seasoned exhibitor alike.</p>
+
+                <p> The members of SBKC hope their time and effort will be evident—that you will find this a wonderful place to show your dogs and simply enjoy your time here in San Diego. SBKC extends a hearty welcome to all exhibitors and expresses its appreciation for the loyal support given the club over the years.
+                </p>
+
+                <img src="images/agility.jpg" alt="showcasing a dog">
+
+            </article>
+
+            <article class="twoCols">
+                <div class="video">
+                   <iframe width="996" height="747" src="https://www.youtube.com/embed/aCFttVd7IDE" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <p>The SBKC holds the reputation as the longest running dog show in San Diego County. This is an American Kennel Club sanctioned two day all breed dog show featuring 150 breeds and over 1,800 dogs each day of the show. Admission is free! Parking: $15. </p>
+                <p>Check out our "All Bread Dog Show" pictures and videos from prior years.</p>
+
+                  <div class="btnDiv">
+                    <a href="pages/gallery.html" class="btn">Photos</a>
+                    <a href="pages/videos.html" class="btn">Videos</a>
+                  </div>
+
+            </article>
+        </section>
+
+
+        <section class="sec2">
+            <article class="threeCols">
+                <h3>Our History</h3>
+                <img src="images/historical_img.jpg" alt="woman holding a puppy">
+                <p>Established in 1934, SBKC is one of the oldest kennel clubs in Southern California. <a href="pages/about.html" class="regLink">Learn more</a></p>
+            </article>
+            <article class="threeCols">
+                <h3>Find a Trainer</h3>
+                <img src="images/matt-nelson-259365-unsplash.jpg" alt="training">
+                <p>The SBKC Family Dog Program is our comprehensive good manners series that can improve behavior and form the foundation your dog needs to participate in other SBKC Sports that can be found at SBKC clubs or many private training facilities.  <a href="pages/tr-hr.html" class="regLink">Learn more</a></p>
+             </article>
+
+            <article class="threeCols">
+
+                <h3>Find a Breeder</h3>
+                <img src="images/anoir-chafik-37957-unsplash.jpg" alt="three little dogs">
+                <p>Looking to purchase a dog? We can help! Whether its for show or just your new best friend, we can help you find the right breeder. Look for one of our Meet the Breed Events to get up close and personal with all the best breeds available in the area! <a href="pages/breeders.html" class="regLink">Learn more</a></p>
+            </article>
+
+        </section>
+        <section class="sec3">
+            <article class="twoCols">
+              <h2>Sign up for our Newsletter! </h2>
+              <form action="#" method="post" id="signup">
+                <fieldset>
+                   <legend>Sign up!</legend>
+                    <ul>
+                          <li>
+                              <label for="fName">First Name:*</label>
+                              <input type="text" id="fName" name="firstName" required>
+                          </li>
+
+                          <li>
+                              <label for="lName">Last Name:*</label>
+                              <input type="text" id="lName" name="lastName" required>
+                          </li>
+                          <li>
+                              <label for="email">Email:*</label>
+                              <input type="email" id="email" name="email" required placeholder="name@url.com">
+                          </li>
+
+                          <li>
+                              <input type="submit" value="Sign Up" class="submitBtn">
+                          </li>
+                      </ul>
+                       <p>* indicates required field</p>
+                </fieldset>
+              </form>
+            </article>
+                <aside>
+                       <h2>Related Articles</h2>
+                        <ul>
+                        <li><a href="https://www.eyeenvy.com/blog/15-reasons-to-attend-the-silver-bay-kennel-club-of-san-diego-show/" target="_blank" class="regLink">
+                        15 reasons to attend SBKC dog show</a></li>
+                        <li><a href="https://timesofsandiego.com/life/2017/02/25/rarity-at-del-mar-dog-show-the-webbed-foot-otterhound/" target="_blank" class="regLink">Feb 25, 2017 - Times of San Diego</a></li>
+                        <li><a href="https://www.latimes.com/sdut-silver-bay-kennel-club-2016-2016feb28-photogallery.html" target="_blank" class="regLink">Feb 28, 2016 - LA Times</a></li>
+                        <li><a href="https://surfsandleoclub.com/news/silver-bay-kennel-club-dog-show-recap/" target="_blank" class="regLink">Feb 29, 2016 - Surf &amp; Sand Leonberger Club</a></li>
+                        <li><a href="https://www.cbs8.com/story/34605450/dog-show-takes-over-del-mar-fairgrounds" target="_blank" class="regLink">Feb 27, 2017 - CBS8 TV channel</a></li>
+                    </ul>
+                </aside>
+        </section>
+         <div class="btnDiv">
+            <a href="pages/join.html" class="btn">Join</a>
+            <a href="pages/donate.html" class="btn">Donate</a>
+            <a href="pages/showEvents.html" class="btn">Upcoming events</a>
+        </div>
+     </main>
+
+       <footer>
+       <!-- <img src="images/Social_Media_Icons.png" alt="Social Media">-->
+        <ul>
+                <li><a class="instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li>
+                <li><a class="facebook" href="https://www.facebook.com" title="Facebook" target="_blank"></a></li>
+                <li><a class="twitter" href="https://www.twitter.com" title="Twitter" target="_blank" ></a></li>
+                <li><a class="yelp" href="https://www.yelp.com" title="yelp" target="_blank"></a></li>
+                <li><a class="googleMaps" href="https://maps.google.com" title="google maps" target="_blank"></a></li>
+        </ul>
+
+         <p>Copyright &copy;2019 Silver Bay Kennel Club</p>
+     </footer>
+
+</body>
+
+</html>

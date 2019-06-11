@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--[if lt IE9]>
+            <script src="scripts/html5shiv.min.js"
+            type="text/javascript"></script>
+        <![endif]-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Boogaloo|Lato|Roboto:400,500" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/main.css.min.css" type="text/css">
+    <!-- scripts -->
+    <!-- Jquery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"         type="text/javascript">
+    </script>
+
+    <script src="../scripts/main.js" defer></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+         <script>
+           $( function() {
+            $("#gallery #tabs" ).tabs();
+          } );
+           /*$( function() {
+            $(".gallery #tabs" ).tabs({
+              event: "mouseover"
+            });
+          } );*/
+    </script>
+
+</head>
+<body>
+   <header>
+     <div class="hamMenu">
+         <i class="fas fa-bars hamMenu"></i>
+     </div>
+      <a href="../index.html"> <img src="../images/header.png" alt="silver bay kennel club"></a>
+         <nav>
+         <ul>
+             <li><a href="../index.html">Home</a><li>
+             <li><a href="showEvents.html">Shows/Events</a></li>
+             <li><a href="tr-hr.html">Trainers</a></li>
+             <li><a href="breeders.html">Breeders</a></li>
+             <li class="disabled">Gallery<i class="fas fa-chevron-down"></i>
+                 <ul id="sub1">
+                     <li><a href="gallery.html">Photos</a></li>
+                     <li><a href="videos.html">Videos</a></li>
+                 </ul>
+             </li>
+              <li class="disabled">About Us<i class="fas fa-chevron-down"></i>
+                 <ul id="sub2">
+                     <li><a href="about.html">History</a></li>
+                     <li><a href="faq.html">F.A.Q.</a></li>
+                 </ul>
+             </li>
+             <li><a href="contactUs.html">Contact Us</a></li>
+         </ul>
+       </nav>
+    </header>
+
+    <main id="gallery">
+        <!-- Year tabs - Jquery UI tabs mouseover Starts -->
+        <h1>Photo Gallery</h1>
+       <div id="tabs">
+         <ul>
+            <li><a href="#tabs-1" class="btn">Year 2018</a></li>
+            <li><a href="#tabs-2" class="btn">Year 2017</a></li>
+            <li><a href="#tabs-3" class="btn">Year 2016</a></li>
+         </ul>
+         <div id="tabs-1">
+            <section class="galWrapper">
+               <article class="galPicBox galPic1">
+                   <h3>Best in Show 2018</h3>
+                   <img src="../images/gallery/SBKC2016bergman001.jpg" alt="poodle best in show">
+                   <h3>Standard poodle</h3>
+               </article>
+               <article class="galPicBox galPic1">
+                   <h3>Reserve B. I. S.</h3>
+                   <img src="../images/gallery/SBKC2016bergman017Boxer.jpg" alt="boxer reserve best in show">
+                   <h3>Boxer</h3></article>
+               <article class="galPicBox galPic1">
+                   <h3>Sporting Group</h3>
+                   <img src="../images/gallery/SBKC2016bergman009.jpg" alt="Sporting group golden retriever">
+                   <h3>Golden Retriever</h3>
+               </article>
+               <article class="galPicBox galPic1">
+                   <h3>Toy Group</h3>
+                   <img src="../images/gallery/SBKC2016bergman018toygrp.jpg" alt="Toy group papillion">
+                   <h3>Papillon</h3>
+               </article>
+               <article class="galPicBox galPic1">
+                   <h3>Hound Group</h3>
+                   <img src="../images/gallery/SBKC2016bergman011Borzoi.jpg" alt="Sporting group golden retriever">
+                   <h3>Borzoi</h3>
+               </article>
+               <article class="galPicBox galPic1">
+                   <h3>Terrier Group</h3>
+                   <img src="../images/gallery/SBKC2016bergman012terrier.jpg" alt="Wheaten terrier">
+                   <h3>Terrier</h3>
+               </article>
+               <article class="galPicBox galPic1">
+                   <h3>Working Group</h3>
+                   <img src="../images/gallery/sbkc2015a_0006_work_AS.jpg" alt="Standard Poodle">
+                   <h3>Anatolian Shepherd</h3>
+               </article>
+               <article class="galPicBox galPic1">
+                   <h3>Herding Group</h3>
+                   <img src="../images/gallery/SBKC2016bergman013herding-grp.jpg" alt="Wheaten terrier">
+                   <h3>Shepherd</h3>
+               </article>
+             </section>
+         </div> <!-- end of tabs-1 -->
+
+          <div id="tabs-2">
+             <section class="galWrapper">
+               <article class="galPicBox galPic2">
+                   <h3>Best in Show 2017</h3>
+                   <img src="../images/gallery/2017sbkc01_BIS_Pug.jpg" alt="pug best in show">
+                   <h3>PUG</h3>
+               </article>
+               <article class="galPicBox galPic2">
+                   <h3>Reserve B. I. S.</h3>
+                   <img src="../images/gallery/2017sbkc01_RBIS.jpg" alt="newfoundland reserve best in show">
+                   <h3>Newfoundland</h3></article>
+               <article class="galPicBox galPic2">
+                   <h3>Sporting Group</h3>
+                   <img src="../images/gallery/2017sbkc01_Sport_En_Setter.jpg" alt="Sporting group English Setter">
+                   <h3>English Setter</h3>
+               </article>
+               <article class="galPicBox galPic2">
+                   <h3>Toy Group</h3>
+                   <img src="../images/gallery/2017sbkc01_Toy_Pug.jpg" alt="Toy group pug">
+                   <h3>PUG</h3>
+               </article>
+               <article class="galPicBox galPic2">
+                   <h3>Hound Group</h3>
+                   <img src="../images/gallery/2017sbkc01_Working.jpg" alt="dachshungs wirehaired">
+                   <h3>Dachshunds</h3>
+               </article>
+               <article class="galPicBox galPic2">
+                   <h3>Terrier Group</h3>
+                   <img src="../images/gallery/2017sbkc01_Terrier_Airdale.jpg" alt="Airdale terrier">
+                   <h3>Airdale Terrier</h3>
+               </article>
+               <article class="galPicBox galPic2">
+                   <h3>Non-Sport Group</h3>
+                   <img src="../images/gallery/2017sbkc01_NSG_B_Terrier.jpg" alt="Boston Terrier">
+                   <h3>Boston Terrier</h3>
+               </article>
+               <article class="galPicBox galPic2">
+                   <h3>Herding Group</h3>
+                   <img src="../images/gallery/2017sbkc01_Herding.jpg" alt="Welsh Corgi">
+                   <h3>Welsh Corgi</h3>
+               </article>
+             </section>
+         </div>
+         <div id="tabs-3">
+             <section class="galWrapper">
+               <article class="galPicBox galPic3">
+                   <h3>Best in Show 2016</h3>
+                   <img src="../images/gallery/sbkc2015a_0001BIS_ESS.jpg" alt="poodle best in show">
+                   <h3>En Springer Spaniel</h3>
+               </article>
+               <article class="galPicBox galPic3">
+                   <h3>Reserve B. I. S.</h3>
+                   <img src="../images/gallery/sbkc2015a_0002RBI.jpg" alt="border terrier reserve best in show">
+                   <h3>Border Terrier</h3></article>
+               <article class="galPicBox galPic3">
+                   <h3>Sporting Group</h3>
+                   <img src="../images/gallery/sbkc2015a_0004_Sport_ESS.jpg" alt="Sporting group english springer spaniel">
+                   <h3>En Springer Spaniel</h3>
+               </article>
+               <article class="galPicBox galPic3">
+                   <h3>Toy Group</h3>
+                   <img src="../images/gallery/sbkc2015a_0009_toy_pomeranian.jpg" alt="Toy group pomeranian">
+                   <h3>Pomeranian</h3>
+               </article>
+               <article class="galPicBox galPic3">
+                   <h3>Non-Sport Group</h3>
+                   <img src="../images/gallery/2017sbkc01_NSG_B_Terrier.jpg" alt="Keeshonden">
+                   <h3>Keeshonden</h3>
+               </article>
+               <article class="galPicBox galPic3">
+                   <h3>Hound Group</h3>
+                   <img src="../images/gallery/sbkc2015a_0005_hound_ah.jpg" alt="Sporting group golden retriever">
+                   <h3>Afghan Hound</h3>
+               </article>
+               <article class="galPicBox galPic3">
+                   <h3>Terrier Group</h3>
+                   <img src="../images/gallery/SBKC2016bergman012terrier.jpg" alt="Wheaten terrier">
+                   <h3>Terrier</h3>
+               </article>
+               <article class="galPicBox galPic3">
+                   <h3>Herding Group</h3>
+                   <img src="../images/gallery/sbkc2015a_0011_hearding.jpg" alt="Bearded Collie">
+                   <h3>Bearded Collie</h3>
+               </article>
+           </section>
+         </div>
+      </div> <!-- end of #tabs -->
+    <!-- Yeartabs - Jquery UI tabs mouseover Ends -->
+     <div class="btnDiv">
+                <a href="join.html" class="btn">Join</a>
+                <a href="donate.html" class="btn">Donate</a>
+                <a href="showEvents.html" class="btn">Upcoming events</a>
+           </div>
+     </main>
+
+     <footer>
+       <!-- <img src="images/Social_Media_Icons.png" alt="Social Media">-->
+        <ul>
+                <li><a class="instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li>
+                <li><a class="facebook" href="https://www.facebook.com" title="Facebook" target="_blank"></a></li>
+                <li><a class="twitter" href="https://www.twitter.com" title="Twitter" target="_blank" ></a></li>
+                <li><a class="yelp" href="https://www.yelp.com" title="yelp" target="_blank"></a></li>
+                <li><a class="googleMaps" href="https://maps.google.com" title="google maps" target="_blank"></a></li>
+        </ul>
+        <p>Copyright &copy;2019 Silver Bay Kennel Club</p>
+     </footer>
+<!--</div>  end of wrapper -->
+</body>
+
+</html>
